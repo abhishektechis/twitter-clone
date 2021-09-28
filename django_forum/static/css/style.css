@@ -1,0 +1,226 @@
+html,
+body {
+  height: 100%;
+}
+.content {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.post_form {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+.post_form input {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.post_form textarea {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.posts ul {
+  padding: 0;
+}
+.posts li {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 40px;
+  list-style: none;
+  position: relative;
+}
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.posts li .menu a {
+  text-decoration: none;
+}
+.posts li .logo {
+  flex-basis: 15%;
+}
+.posts li .logo img {
+  width: 60%;
+}
+.posts li .name_body {
+  flex-basis: 85%;
+}
+.posts li .name_body .name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.posts li .name_body .datetime {
+  color: gray;
+}
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
+.content .nav {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.nav .logo {
+  width: 50px;
+  margin-right: 20px;
+}
+.content .bottom-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid rgb(235, 238, 240);
+  padding-top: 8px;
+}
+.btn {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.my_icon {
+  margin-bottom: 0 !important;
+}
+.post-border {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  width: 60%;
+  margin-right: 1px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 500px) {
+  .posts li .name_body {
+    font-size: 20px;
+  }
+}
+
+.name-input {
+  width: 86.3% !important;
+  background-color: #253340;
+  color: #fff;
+  font-size: 15px;
+}
+
+#tweet-button {
+  border-radius: 20px;
+  background-color: #209bf0;
+  width: 80px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+#tweet-button:hover {
+  background-color: #1e92dc;
+}
+
+.update-edit-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 9.5%;
+}
+
+#update-button {
+  border-radius: 20px;
+  background-color: rgb(16, 17, 16) !important;
+  width: 80px;
+  height: 35px;
+  color: rgb(30, 90, 16);
+  font-weight: bold;
+  border: none;
+}
+
+.cancel-button {
+  border-radius: 20px;
+  background-color: hsl(256, 68%, 36%);
+  margin-right: 0.5em;
+  align-items: right;
+  width: 80px !important;
+  color: #fff;
+  font-weight: bold;
+  border: none !important;
+}
+
+.cancel-anchor {
+  color: #15202b;
+}
+
+#upload-file {
+  color: #fff;
+  overflow: hidden;
+}
+
+.like-button {
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  width: 34px;
+  height: 32;
+  color: rgb(0, 255, 179);
+}
+
+#likes-form {
+  padding-top: 20px;
+  border-radius: 15px;
+}
+
+.white-logo {
+  border-radius: 15px;
+  width: 40px;
+  position: relative;
+  padding: 15%;
+}
+
+.white-logo:hover {
+  background-color: #f6f8fa;
+}
+
+.posts li:hover {
+  background-color: #f1f6fa;
+}
+
+.divider {
+  background-color: #ecf1f5;
+  height: 12px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+@media screen {
+  min-width: 400px;
+
+  h1 {
+    padding-left: 15px;
+    padding-top: 0px;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .posts li .name_body .name {
+    font-size: 23px;
+  }
+  #upload-file {
+    color: #209bf0;
+  }
+}
