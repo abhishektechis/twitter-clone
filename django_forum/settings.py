@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1'
-'twitter-clone.herokuapp.com']
+'abhishek-twitter12.herokuapp.com']
 
 
 # Application definition
